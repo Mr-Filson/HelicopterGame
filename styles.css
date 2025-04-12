@@ -1,0 +1,75 @@
+body {
+	background-color: deepskyblue;
+}
+.m {
+	margin-left: 1000px;
+}
+#game {
+    font-family: David, cursive, sans-serif;
+    text-align: center;
+}
+
+#instructions {
+    text-align: center;
+}
+
+#game-area {
+    margin: auto;
+    position: relative;
+    width: 700px;
+    height: 600px;
+    border: 2px solid green;
+    background-color: deepskyblue;
+    overflow: hidden;
+	background: url('bg3.png');
+	background-size: contain;
+
+}
+
+#heli {
+    position: absolute;
+    background: url('heli.png');
+    height: 87px;
+    width: 102px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 15%;
+}
+
+.pole {
+    position: absolute;
+    height: 235px;
+    width: 60px;
+    background-color: gray;
+    right: 0px;
+	background: url('build.png');
+}
+
+#pole-1 {
+    top: 0;
+}
+
+#pole-2 {
+    bottom: 0;
+}
+
+#game-info {
+    margin: 5px;
+    font-size: 18px;
+}
+
+    #game-info p {
+        display: inline;
+        padding: 20px;
+    }
+
+#restart-btn {
+    padding: 5px 10px;
+    background-color: brown;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
